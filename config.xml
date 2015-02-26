@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<installer version="1.0">
+	<info>
+		<uid>fusion@shopdev.co.uk</uid>
+		<type>plugins</type>
+		<folder>Fusion</folder>
+		<name><![CDATA[Fusion Framework]]></name>
+		<description><![CDATA[Fusion Framework powers the best CubeCart V5 themes.]]></description>
+		<version>2.2</version>
+		<minVersion>5.0.5</minVersion>
+		<maxVersion>5.1.*</maxVersion>
+		<creator><![CDATA[ShopDev]]></creator>
+		<homepage><![CDATA[http://www.shopdev.co.uk]]></homepage>
+	</info>
+
+	<hooks>
+		<hook trigger="admin.fusion" enabled="1"><![CDATA[Fusion Configuration Panel]]></hook>
+		<hook trigger="class.gui.css" enabled="1"><![CDATA[Expose Fusion to Skin]]></hook>
+		<hook trigger="controller.index" enabled="1"><![CDATA[Fusion Enhancements]]></hook>
+		<hook trigger="admin.navigation" enabled="1"><![CDATA[Fusion Configuration Panel Link]]></hook>
+		<hook trigger="class.gui.display_popular_products" enabled="1"><![CDATA[Standardise Popular Products]]></hook>
+		<hook trigger="class.gui.display_sale_items" enabled="1"><![CDATA[Standardise Sale Items]]></hook>
+		<hook trigger="class.gui.display_random_product" enabled="1"><![CDATA[Standardise Featured Product]]></hook>
+		<hook trigger="class.cubecart.display_homepage" enabled="1"><![CDATA[Standardise Latest Products]]></hook>
+		<hook trigger="class.cubecart.display_basket" enabled="1"><![CDATA[Standardise Related Products]]></hook>
+	</hooks>
+</installer>

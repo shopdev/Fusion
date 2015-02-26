@@ -1,0 +1,35 @@
+.panel {
+	height: 100%;
+}
+
+.ui-layout-resizer {
+	-moz-box-shadow: 1px 0 3px rgba(0,0,0,.2);
+	-webkit-box-shadow: 1px 0 3px rgba(0,0,0,.2);
+	box-shadow: 1px 0 3px rgba(0,0,0,.2);
+}
+
+.ui-layout-resizer-north, .ui-layout-resizer-south {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAKCAIAAAD+RXMgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACJJREFUCFtjWgoDTKEwwPQPBpj+wgDTHxhAYmGTRYgdggEAPLVN4i1E+ZUAAAAASUVORK5CYII=") repeat-x center;
+	height: 10px;
+}
+
+.ui-layout-resizer-east, .ui-layout-resizer-west {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACJJREFUCB1jXLp0qY2NDRMTEzMzMwsLC4SEMNauXctIkTQAwg4O0avWgU8AAAAASUVORK5CYII=") repeat-y center;
+	width: 10px;
+}
+
+.ui-layout-toggler {
+	background: rgba(0,0,0,.15);
+	border: 1px solid rgba(0,0,0,.15);
+	border-left: none;
+	border-right: none;
+}
+
+.ui-layout-toggler:hover {
+	background: rgba(0,0,0,.3);
+}
+
+.ui-layout-pane {
+	background: #FFF;
+	overflow: auto;
+}

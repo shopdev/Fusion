@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions version="1.0">
+	<group name="fusion">
+		<string name="module_title"><![CDATA[Fusion]]></string>
+	</group>
+</definitions>
